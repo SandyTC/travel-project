@@ -127,4 +127,16 @@ footer a {
     padding: 10px 20px;
     font-weight: 600;
   }
+
+  footer {
+    padding: 40px;
+  }
+
+  footer h3 {
+    font-size: 14px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
 }
