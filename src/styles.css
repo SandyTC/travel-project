@@ -18,10 +18,11 @@ body {
 
 .img-responsive {
   width: 100%;
+  display: block;
 }
 
 .grid-2-columns {
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
 }
 
 .grid-3-columns {
@@ -89,7 +90,7 @@ header {
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 160px;
+  padding: 160px 0;
 }
 
 header h1 {
@@ -118,6 +119,7 @@ header a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
+  text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
   background: white;
@@ -259,9 +261,8 @@ footer a {
     grid-gap: 10px;
   }
 
-  .img-responsive {
-    display: block;
-    margin: 0 auto;
+  section {
+    padding: 30px;
   }
 
   .card-header img {
